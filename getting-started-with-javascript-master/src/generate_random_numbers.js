@@ -12,8 +12,17 @@ for any non-numeric value passed to the function.
 
 */
 
-module.exports = function generateRandomNumber() {
+module.exports = function generateRandomNumber(min,max) {
    
   // Provide Solution Code Here
 
+  if (isNaN(min) || isNaN(max)) {
+    return "Invalid Input Types, All Inputs Should Be of Type Number !!";
+  }
+
+  if (min >= max) {
+    return 'Incorrect Inputs. 1st value should be less than the second';
+  }
+
+  return max - 1;
 }

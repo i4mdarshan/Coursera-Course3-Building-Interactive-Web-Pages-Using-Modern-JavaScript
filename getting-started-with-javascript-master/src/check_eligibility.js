@@ -11,8 +11,9 @@ for any non-numeric value passed to the function.
 
 */
 
-module.exports = function checkEligibility() {
+module.exports = function checkEligibility(age) {
    
   // Provide Solution Code Here
+  return isNaN(age) ? "Invalid Age Input, Age Should Only Be Number !!" : (age >= 18) ? true : false;
 
 }

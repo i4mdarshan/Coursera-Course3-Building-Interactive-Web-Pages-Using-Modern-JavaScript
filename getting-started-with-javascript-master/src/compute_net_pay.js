@@ -12,8 +12,16 @@ for any non-numeric value passed to the function.
 
 */
 
-module.exports = function calculateNetPayable() {
+module.exports = function calculateNetPayable(pricePerKilo, quantityInKilo, discountPercentage) {
    
   // Provide Solution Code Here
+  if (typeof pricePerKilo == "string" || typeof quantityInKilo == "string" || typeof discountPercentage == "string") {
+    return "Invalid Input Types, All Inputs Should Be of Type Number !!";
+  }
+
+  var discount = (pricePerKilo * quantityInKilo) * (discountPercentage/100)
+  var netAmount = (pricePerKilo * quantityInKilo) - discount
+
+  return netAmount.toString() ;
 
 }

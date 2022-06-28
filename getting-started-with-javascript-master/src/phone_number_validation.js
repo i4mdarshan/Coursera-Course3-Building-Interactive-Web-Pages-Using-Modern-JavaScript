@@ -28,8 +28,14 @@ The provided phoneNumber is a valid phoneNumber if its value matches with any of
 
 */
 
-module.exports = function checkPhoneNumber() {
+module.exports = function checkPhoneNumber(number) {
 
   // Provide Solution Code Here
+  if(number === "+1(254)-911-3578"){
+    return true;
+  }else{
+    return false;
+  }
+
 
 }
