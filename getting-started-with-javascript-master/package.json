@@ -1,0 +1,20 @@
+{
+  "name": "getting-started-with-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript provides lot of flexibility while writing programs.",
+  "main": "check_eligibility.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/getting-started-with-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "dependencies": {}
+}
