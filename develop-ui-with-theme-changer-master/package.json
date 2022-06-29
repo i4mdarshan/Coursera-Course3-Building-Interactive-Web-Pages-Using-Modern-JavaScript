@@ -1,0 +1,26 @@
+{
+  "name": "develop-ui-with-theme-changer",
+  "version": "1.0.0",
+  "description": "A lot of good websites today offer an option to viewers to view the pages with the theme of their choice",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/develop-ui-with-theme-changer.git"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
