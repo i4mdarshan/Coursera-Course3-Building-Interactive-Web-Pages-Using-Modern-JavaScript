@@ -1,0 +1,26 @@
+{
+  "name": "validate-inputs-captured-for-contact-form",
+  "version": "1.0.0",
+  "description": "Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "jest": "^27.4.5",
+    "moment": "^2.29.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/validate-inputs-captured-for-contact-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "develop-tic-tac-toe-game",
+  "version": "1.0.0",
+  "description": "![](images/tic-tac-toe-ui.png)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint --output-file eslint_html_report.html --format html js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/develop-tic-tac-toe-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "eslint": "^8.11.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {}
+}
