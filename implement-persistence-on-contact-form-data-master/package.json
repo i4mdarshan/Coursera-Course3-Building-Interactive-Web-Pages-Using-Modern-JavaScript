@@ -1,0 +1,28 @@
+{
+  "name": "implement-persistence-on-contact-form-data",
+  "version": "1.0.0",
+  "description": "Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/implement-persistence-on-contact-form-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
