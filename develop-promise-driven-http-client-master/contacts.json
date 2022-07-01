@@ -1,0 +1,16 @@
+{
+    "contacts":[
+        {
+            "firstName": "jones",
+            "lastName": "christi",
+            "email": "jones.c@gmail.com",
+            "homeNo": "+1 890 765 3210",
+            "workNo": "",
+            "birthDate": "2001-16-9",
+            "company": "",
+            "jobTitle": "",
+            "notes": "nth contact",
+            "contactAddedOn": "2021-05-23T12:19:11.235Z"
+        }
+    ]
+}
