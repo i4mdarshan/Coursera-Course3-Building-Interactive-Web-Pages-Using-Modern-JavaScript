@@ -9,6 +9,7 @@
     for success or reject with error
 
 */
+// import axios from 'axios';
 // class http{
 
 //     constructor (url) {

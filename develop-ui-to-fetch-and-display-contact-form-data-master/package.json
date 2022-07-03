@@ -1,0 +1,26 @@
+{
+  "name": "develop-ui-to-fetch-and-display-contact-form-data",
+  "version": "1.0.0",
+  "description": "Prime solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:gps-frontend-workspace/gps-frontend-challenge-solutions/javascript-solutions/develop-ui-to-fetch-and-display-contact-form-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "axios": "^0.26.1",
+    "jest": "^27.4.5"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
